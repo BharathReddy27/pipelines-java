@@ -31,7 +31,7 @@ steps:
         azureSubscription: 'Pay-As-You-Go(9d410db7-7962-4103-9945-4bdda1c06530)'
         appType: 'webAppLinux'
         WebAppName: 'SPRINGpet'
-        packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+        packageForLinux: '$(Build.ArtifactStagingDirectory)/**/**/*.zip'
         enableCustomDeployment: true
         DeploymentType: 'webDeploy'
         
